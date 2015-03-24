@@ -4,4 +4,4 @@ script: "bundle exec rake test" # your test command goes here
 
 addons:
   code_climate:
-    repo_token: {{CODECLIMATE_TOKEN}}
+    repo_token: ENV['CODECLIMATE_TOKEN']
